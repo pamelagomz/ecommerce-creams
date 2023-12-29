@@ -1,3 +1,3 @@
 # ecommerce-creams
-#Brand: Love Cream 
-#Listado
+Brand: Love Cream 
+Listado
