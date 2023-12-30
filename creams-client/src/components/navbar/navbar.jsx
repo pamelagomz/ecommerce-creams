@@ -3,8 +3,9 @@ import "./navbar.css"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../assets/logoCream.png'
+import CartWidget from '../CartWidget/CartWidget';
+
 
 const navbar = () => {
   return (
@@ -18,8 +19,10 @@ const navbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-center d-flex justify-content-center align-items-center">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Shop</Nav.Link>
+            <Nav.Link href="#shop">Shop</Nav.Link>
+            <Nav.Link href="#story">Our Story</Nav.Link>
             <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <CartWidget/>
           </Nav>
         </Navbar.Collapse>
       </Container>

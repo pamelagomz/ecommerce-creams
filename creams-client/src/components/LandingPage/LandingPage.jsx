@@ -31,9 +31,9 @@ const LandingPage = () => {
           <Container>
             <Row>
               <Col>
-                <h1 className="display-2 text-danger mb-4">THE FUTURE OF SOCIAL DRINK IS HERE</h1>
+                <h1 className="display-2 text-danger mb-4">EL FUTURO DE LA LECHE VEGANA</h1>
                 <div className="text-start mt-10 mb-10">
-              <p className="lead mb-4">Drinkable, delicious cannabis that's as unique and refreshing</p>
+              <p className="lead mb-4">Descubre sabores deliciosos, 100% veganos.</p>
               <Button variant="light">Comprar</Button>
               </div>
               </Col>
@@ -55,8 +55,8 @@ const LandingPage = () => {
           <Container>
             <Row>
               <Col >
-                <h2>Contenido de la siguiente sección</h2>
-                <p>Aquí puedes agregar más contenido para la siguiente sección.</p>
+                <h2>Deliciosos sabores</h2>
+                <p>Transformarán tu rutina diaria de café.</p>
               </Col>
             </Row>
             <Row className='justify-content-center align-items-center'>
@@ -98,7 +98,7 @@ const LandingPage = () => {
             <Row>
               <Col >
                 <h2>Nuestra Historia</h2>
-                <p>Aquí puedes agregar más contenido para la siguiente sección.</p>
+                <p>En el corazón de nuestra marca de leche en polvo se encuentra una historia de pasión y compromiso con la calidad. Nacimos de la idea de crear una opción vegana excepcional para los amantes del café, fusionando los sabores ricos con una alternativa láctea que se adapta a todos los estilos de vida. Desde nuestros inicios, nos hemos esforzado por ofrecer una experiencia única, elevando cada taza de café a nuevas alturas de indulgencia y sabor. Únete a nosotros en este viaje de autenticidad, donde la deliciosa simplicidad encuentra su lugar en cada momento de café.</p>
               </Col>
             </Row>
           </Container>
