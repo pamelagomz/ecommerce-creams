@@ -1,0 +1,5 @@
+.product-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center; /* Opcional: ajusta el espacio entre las tarjetas */
+  }

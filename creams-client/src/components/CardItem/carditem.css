@@ -1,0 +1,41 @@
+/* TransportCard.css */
+
+.custom-transport-card.card{
+    border-radius: 20px;
+    text-align: center;
+    border-color: #000000;
+    height: 475px;
+}
+.custom-transport-card {
+    width: 25rem;
+    background-color: pink; /* Cambia esto al color de rosa que desees */
+    border: 10px solid #ff69b4; /* Cambia esto al color del borde que desees */
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif; /* Define la fuente Montserrat */
+}
+
+  .custom-transport-card img{
+    height: 241px;
+    width: 154px;
+    margin: 15px;
+  }
+  
+  .custom-transport-card .btn-primary {
+    background-color: #ff69b4; /* Cambia esto al color del botón que desees */
+    border-color: #ff69b4; /* Puedes cambiar esto si deseas un color de borde diferente */
+    border-radius: 60px;
+    width: 257px;
+    margin: 4px;
+  }
+
+  .custom-transport-card .btn-secundary{
+    background-color: #69ff9e00; /* Cambia esto al color del botón que desees */
+    border-color: #000000; /* Puedes cambiar esto si deseas un color de borde diferente */
+    border-radius: 60px;
+    width: 257px;
+    margin: 4px;
+
+  }
+  
+
+
