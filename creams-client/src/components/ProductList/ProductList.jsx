@@ -10,24 +10,24 @@ import imagePink from '../../assets/Creams-Rosa.png'
 
 const ProductList = () => {
 
-    const [rockets, setRockets] = useState([])
+    const [products, setProducts] = useState([])
 
     useEffect(() => {
         //traer los datos de la api 
-        fetch('https://api.spacexdata.com/v4/rockets')
+        fetch('https://fakestoreapi.com/products')
         .then((res) => res.json()) //convertir a json
-        .then((data) => setRockets(data)) //guardar en el estado
+        .then((json) => setProducts(json)) //guardar en el estado
         .catch((err) => console.log(err))
     }
     , []);
     
     return (
         <div className="product-card-list">
-          {rockets.map((product) => (
+          {products.map((product) => (
             <Carditem
               key={product.id}
-              title={product.name}
-              description={product.company}
+              title={product.title}
+              description={product.price}
               imageSrc={product.imageSrc}
             />
           ))}
