@@ -1,0 +1,17 @@
+.box {
+    height: 37px;
+    width: 257px;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .box .rectangle {
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 60px;
+    height: 37px;
+    width: 257px;
+  }
+  
