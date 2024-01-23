@@ -9,7 +9,6 @@ import "./headermain.css"
 function HeaderMain() {
   return (
     <div>
-        <NavBar/>
         <BarNotice>
             <p>¡Envíos <strong>gratis</strong> a todo el país!</p>
         </BarNotice>

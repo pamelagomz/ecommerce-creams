@@ -9,7 +9,6 @@ import ProductList from '../ProductList/ProductList';
 function Shop() {
   return (
     <div>
-      <NavBar/>
       <BarNotice>
             <p>¡Envíos <strong>gratis</strong> a todo el país!</p>
       </BarNotice>

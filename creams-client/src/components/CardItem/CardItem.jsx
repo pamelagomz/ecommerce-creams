@@ -1,5 +1,6 @@
 // TransportCard.js
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Card, Button } from 'react-bootstrap';
 import imageCoral from '../../assets/Creams-Coral.png'
 import "./carditem.css"
@@ -10,6 +11,12 @@ import Figure from 'react-bootstrap/Figure';
 
 
 const TransportCard = ({ title, description, imageSrc}) => {
+  const navigate = useNavigate();
+
+  const navigateToProductDetails = () =>{
+    //redirige a la vista detallada del producto 
+    navigate(`/ItemDetail/${title}`)
+  }
   return (
     <Card className="custom-transport-card">
       <Card.Body>
@@ -19,7 +26,7 @@ const TransportCard = ({ title, description, imageSrc}) => {
         <Box>
           <Button></Button>
         </Box>
-        <Button variant="primary">ADD TO CART</Button>
+        <Button onClick={navigateToProductDetails} variant="primary">ADD TO CART</Button>
       </Card.Body>
     </Card>
   );

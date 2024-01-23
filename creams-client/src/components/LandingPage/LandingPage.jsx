@@ -15,6 +15,7 @@ const LandingPage = () => {
       color: '#333', // Cambia el color del texto según sea necesario
       position: 'relative',
       padding: '100px 0', // Ajusta el relleno según sea necesario
+      fontFamily: 'Montserrat',
     };
 
     const section3Style = {
@@ -22,6 +23,7 @@ const LandingPage = () => {
         color: '#333', // Cambia el color del texto según sea necesario
         position: 'relative',
         padding: '100px 0', // Ajusta el relleno según sea necesario
+        fontFamily: 'Montserrat',
       };
   
     return (
@@ -31,9 +33,9 @@ const LandingPage = () => {
           <Container>
             <Row>
               <Col>
-                <h1 className="display-2 text-danger mb-4">EL FUTURO DE LA LECHE VEGANA</h1>
+                <h1 className="display-2 text-danger mb-4" style={{fontFamily: 'Playfair Display'}}>EL FUTURO DE LA LECHE VEGANA</h1>
                 <div className="text-start mt-10 mb-10">
-              <p className="lead mb-4">Descubre sabores deliciosos, 100% veganos.</p>
+              <p className="lead mb-4" style={{fontSize: '15px'}}>Descubre sabores deliciosos, 100% veganos.</p>
               <Button variant="light">Comprar</Button>
               </div>
               </Col>

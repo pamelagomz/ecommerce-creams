@@ -1,0 +1,42 @@
+.product-details-container {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    max-width: 400px; /* O ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor */
+    margin-top: 100px;
+  }
+  
+  .product-image {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .quantity-container {
+    margin-top: 10px;
+  }
+  
+  button {
+    color: #070202;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20rem;
+  }
+
+  /*cambiar el borde del boton */
+  .add-to-cart-button{
+    background-color: #f8a0bd;
+    border-radius: 30px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #febed9;
+  }
+

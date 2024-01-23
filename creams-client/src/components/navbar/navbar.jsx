@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../../assets/logoCream.png'
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
 
 const navbar = () => {
@@ -18,8 +19,8 @@ const navbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-center d-flex justify-content-center align-items-center">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#shop">Shop</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/shop">Shop</Nav.Link>
             <Nav.Link href="#story">Our Story</Nav.Link>
             <Nav.Link href="#contact">Contact Us</Nav.Link>
             <CartWidget/>
