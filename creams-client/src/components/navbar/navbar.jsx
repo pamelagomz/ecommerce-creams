@@ -23,7 +23,7 @@ const navbar = () => {
             <Nav.Link as={Link} to="/shop/electronics">Electronics</Nav.Link>
             <Nav.Link as={Link} to="/shop/jewelery">Jewelery</Nav.Link>
             <Nav.Link as={Link} to="/#3">Our Story</Nav.Link>
-            <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <Nav.Link as={Link} to="/#4">Contact Us</Nav.Link>
             <CartWidget/>
           </Nav>
         </Navbar.Collapse>
