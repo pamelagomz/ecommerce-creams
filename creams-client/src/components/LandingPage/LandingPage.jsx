@@ -95,7 +95,7 @@ const LandingPage = () => {
         </section>
 
         {/* Sección 3 */}
-        <section style={section3Style} className="text-center">
+        <section id="3" style={section3Style} className="text-center">
           <Container>
             <Row>
               <Col >

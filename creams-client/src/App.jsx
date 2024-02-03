@@ -19,7 +19,8 @@ function App() {
         {/* Utiliza <Routes> para envolver tus rutas */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
+          <Route path="/shop/electronics" element={<Shop category="electronics" />} />
+          <Route path="/shop/jewelery" element={<Shop category="jewelery" />} />
           <Route path="/ItemDetail/:id" element={<ItemDetail />} />
         </Routes>
       </div>

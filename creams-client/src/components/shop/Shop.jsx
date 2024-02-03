@@ -6,13 +6,13 @@ import BarNotice from '../BarNotice/BarNotice';
 import ProductList from '../ProductList/ProductList';
 
 
-function Shop() {
+function Shop({category}) {
   return (
     <div>
       <BarNotice>
             <p>¡Envíos <strong>gratis</strong> a todo el país!</p>
       </BarNotice>
-      <ProductList/>
+      <ProductList category={category} />
       
     </div>
   )

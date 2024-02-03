@@ -8,27 +8,25 @@ import imagePink from '../../assets/Creams-Rosa.png'
 
 
 
-const ProductList = () => {
+const ProductList = ({category}) => {
 
     const [products, setProducts] = useState([])
 
     useEffect(() => {
         //traer los datos de la api 
-        fetch('https://fakestoreapi.com/products')
+        fetch(`https://fakestoreapi.com/products/category/${category}`)
         .then((res) => res.json()) //convertir a json
         .then((json) => setProducts(json)) //guardar en el estado
         .catch((err) => console.log(err))
     }
-    , []);
+    , [category]);
     
     return (
         <div className="product-card-list">
           {products.map((product) => (
             <Carditem
               key={product.id}
-              title={product.title}
-              description={product.price}
-              imageSrc={product.imageSrc}
+              productData={product}
             />
           ))}
         </div>
